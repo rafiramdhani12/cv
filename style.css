@@ -84,7 +84,7 @@ body {
 .contactInfo ul li {
   list-style: none;
   position: relative;
-  margin: 10px 0;
+  margin: 20px 0;
   cursor: pointer;
 }
 .contactInfo ul li .icon {
@@ -211,5 +211,8 @@ p {
   }
   .interest ul {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .about.skills .box4 {
+    margin-top: 10px;
   }
 }
